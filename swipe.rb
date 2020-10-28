@@ -9,8 +9,8 @@ class Swipe < Formula
     when /mswin|msys|mingw|cygwin|bccwin|wince|emc/
       :windows
     when /darwin|mac os/
-      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-alpha.15/swipe_v2.0.0-alpha.15_darwin_amd64.zip"
-      sha256 "7802e55d94784008f47cd03403988bf67583ff79635070c8833ff38ef9c1f1a4"
+      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-alpha.15/swipe_2.0.0-alpha.15_darwin_amd64.zip"
+      sha256 "ea2efef9ec3537e4bc269fd640b72c2adb22ab49043c7d9ee7b9bc9853a14e1f"
     when /linux/
       url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-alpha.15/"
       sha256 ""
@@ -24,11 +24,11 @@ class Swipe < Formula
     when /mswin|msys|mingw|cygwin|bccwin|wince|emc/
       :windows
     when /darwin|mac os/
-      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-alpha.15/swipe_v2.0.0-alpha.15_darwin_386.zip"
-      sha256 "45b01a0101d090cf20ccc0cd5bb9ee8b91b7e050de431e6ac1c5bba5467f90c3"
+      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-alpha.15/swipe_2.0.0-alpha.15_darwin_386.zip"
+      sha256 "f8fc2cfa6bc055d1599c7ef3bc254b704bce2ebd45b33f18aa77ac3c3ece76ca"
     when /linux/
-      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-alpha.15/swipe_v2.0.0-alpha.15_linux_386.tar.gz"
-      sha256 "b4520c7c3bc95a3ec3a902883d35a1596c8217322f3e41b5e1517490d004d9ff"
+      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-alpha.15/swipe_2.0.0-alpha.15_linux_386.tar.gz"
+      sha256 "0e44a04f5bc732129b2c0dd97cd4c291f4be5916adf0a6b576ea31335a926af1"
     when /solaris|bsd/
       :unix
     else
