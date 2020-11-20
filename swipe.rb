@@ -2,17 +2,17 @@ require 'rbconfig'
 class Swipe < Formula
   desc ""
   homepage "https://github.com/swipe-io/swipe"
-  version "2.0.0-alpha.21"
+  version "2.0.0-beta.1"
 
   if Hardware::CPU.is_64_bit?
     case RbConfig::CONFIG['host_os']
     when /mswin|msys|mingw|cygwin|bccwin|wince|emc/
       :windows
     when /darwin|mac os/
-      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-alpha.21/swipe_2.0.0-alpha.21_darwin_amd64.zip"
-      sha256 "31c30e8179e2af3bb2ee27df6bad085b92df255dce4b0a5e2959c1f99c2e60e4"
+      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-beta.1/swipe_2.0.0-beta.1_darwin_amd64.zip"
+      sha256 "3b5cb5ce2d6bba3bf50afdd812b03bb7334a45e8b9a2a1897cb69cfb0ab5e586"
     when /linux/
-      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-alpha.21/"
+      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-beta.1/"
       sha256 ""
     when /solaris|bsd/
       :unix
@@ -24,11 +24,11 @@ class Swipe < Formula
     when /mswin|msys|mingw|cygwin|bccwin|wince|emc/
       :windows
     when /darwin|mac os/
-      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-alpha.21/swipe_2.0.0-alpha.21_darwin_386.zip"
-      sha256 "f7b50807c3f789947945e84a95b6b09dac408b7f4941b2010d52e3754961f8f4"
+      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-beta.1/swipe_2.0.0-beta.1_darwin_386.zip"
+      sha256 "a8bc662b65a4d2fc35cb570455103ea7c6f04844fb56665d69a6313fbd438f53"
     when /linux/
-      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-alpha.21/swipe_2.0.0-alpha.21_linux_386.tar.gz"
-      sha256 "967da60da6b2d55db9e5d857de7733b2d70981d70600407e5ff4957f3b9b1fe7"
+      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-beta.1/swipe_2.0.0-beta.1_linux_386.tar.gz"
+      sha256 "34bfa603435292a675b224492e437ee2c3e18f285a7de794edff051af897269e"
     when /solaris|bsd/
       :unix
     else
