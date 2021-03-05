@@ -10,7 +10,7 @@ class Swipe < Formula
       :windows
     when /darwin|mac os/
       url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-rc3/v2_2.0.0-rc3_darwin_amd64.zip"
-      sha256 "e9fba0ca052aa32ad6395bcf98d28ff6dbe14650dce3ddd0569688ee62cd2376"
+      sha256 "49a1e48aeff40df7bfd7eb6217665f3794569f644a60e157f34484990e8ce660"
     when /linux/
       url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-rc3/"
       sha256 ""
@@ -28,7 +28,7 @@ class Swipe < Formula
       sha256 ""
     when /linux/
       url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-rc3/v2_2.0.0-rc3_linux_386.tar.gz"
-      sha256 "94a2047e409d066043fc8178dfe4bf864190d784a367bdf87ff05cd4637e6467"
+      sha256 "c0e35d4c5971554dbd052a9743385e4277238e71484bcfc151f09829b0ab6020"
     when /solaris|bsd/
       :unix
     else
