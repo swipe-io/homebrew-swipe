@@ -2,17 +2,17 @@ require 'rbconfig'
 class Swipe < Formula
   desc ""
   homepage "https://github.com/swipe-io/swipe"
-  version "2.0.0-rc5"
+  version "2.0.0-rc6"
 
   if Hardware::CPU.is_64_bit?
     case RbConfig::CONFIG['host_os']
     when /mswin|msys|mingw|cygwin|bccwin|wince|emc/
       :windows
     when /darwin|mac os/
-      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-rc5/v2_2.0.0-rc5_darwin_amd64.zip"
-      sha256 "6b785c5bac4e22a7aa559e031474a04e5bd6200fb6b676af128859c343aa773a"
+      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-rc6/v2_2.0.0-rc6_darwin_amd64.zip"
+      sha256 "ae76caad3a5f8724d5a0f24e71659b084c78ef3322bc203de9c47b76ef0b21d9"
     when /linux/
-      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-rc5/"
+      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-rc6/"
       sha256 ""
     when /solaris|bsd/
       :unix
@@ -24,11 +24,11 @@ class Swipe < Formula
     when /mswin|msys|mingw|cygwin|bccwin|wince|emc/
       :windows
     when /darwin|mac os/
-      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-rc5/"
+      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-rc6/"
       sha256 ""
     when /linux/
-      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-rc5/v2_2.0.0-rc5_linux_386.tar.gz"
-      sha256 "ac63e03e9759dbde829f13841436285597485922b82b8a4ea01d417741a981b1"
+      url "https://github.com/swipe-io/swipe/releases/download/v2.0.0-rc6/v2_2.0.0-rc6_linux_386.tar.gz"
+      sha256 "0a281416105ff2771d762646fbf24ed6dffd80f477a34820782e1103cb85d470"
     when /solaris|bsd/
       :unix
     else
